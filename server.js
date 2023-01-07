@@ -13,14 +13,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "exam",
+  host: "mysql.koki10.site",
+  user: "u25_0mNKm09HbT",
+  password: ".Pku@UlrdFgytkwYyLzgFrj3",
+  database: "s25_questiongame",
 });
 
 var corsOptions = {
-  origin: "http://127.0.0.1:5173",
+  origin: "https://dev.questiongame.kekenj-sabolc.me",
 };
 app.use(cors(corsOptions));
 
